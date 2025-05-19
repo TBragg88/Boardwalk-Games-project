@@ -7,6 +7,9 @@
     --primary-font: "inter", sans-serif;
     --secondary-font: "Macondo", cursive;
     --primary-color: #3a2620; /* Dark brown */
+    --secondary-color: #aa9581; /* Light brown */
+    --highlight-color: #416a8e; /* Blue */
+    --highlight-color-light: #7a9fc2; /* Light blue */
 }
 
 /* Global Styles */
@@ -21,7 +24,7 @@ h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
 }
-
-p { 
-    border: 2px solid var(--primary-color);
+.sub-heading-color {
+    color: var(--highlight-color);
+}
 }

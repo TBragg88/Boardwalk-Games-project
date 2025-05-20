@@ -28,6 +28,15 @@ h3 {
 .sub-heading-color {
     color: var(--highlight-color);
 }
+
+/* Nav */
+#navbar {
+    background-color: var(--primary-color);
+}
+#navbar .logo {
+    width: 30px;
+}
+
 /* Grid visualisation CSS for testing */
 
 /* .container,

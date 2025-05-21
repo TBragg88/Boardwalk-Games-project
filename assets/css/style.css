@@ -100,6 +100,21 @@ h2 {
     border: none;
 }
 
+/* Events */
+#events .table {
+    /* testing overflow */
+    font-size: 0.7rem;
+}
+
+.student {
+    background-color: var(--highlight-color);
+    color:white;
+    font-weight: bold;
+    max-width:300px;
+    margin: auto;
+    padding: 5px;
+    font-size: 0.8rem; 
+}
 /* Footer / contact */
 
 #contact {
@@ -151,6 +166,16 @@ h2 {
 /* ------------------------Delete this comment when testing finished----------------  */
 
 /* Media queries */
+
+/*  small devices (phones, 576px and up) */
+@media screen and (min-width: 576px) {
+    #events .table {
+        font-size: 1rem;
+    }
+    .student {
+        font-size: .8rem;
+    }
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {

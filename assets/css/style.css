@@ -109,12 +109,12 @@ h2 {
 
 .student {
     background-color: var(--highlight-color);
-    color:white;
+    color: white;
     font-weight: bold;
-    max-width:300px;
+    max-width: 300px;
     margin: auto;
     padding: 5px;
-    font-size: 0.8rem; 
+    font-size: 0.8rem;
 }
 /* Footer / contact */
 
@@ -174,7 +174,7 @@ h2 {
         font-size: 1rem;
     }
     .student {
-        font-size: .8rem;
+        font-size: 0.8rem;
     }
 }
 
